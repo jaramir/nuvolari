@@ -1,1 +1,3 @@
 *.secret.tf
+*.tfstate
+*.tfstate.backup
