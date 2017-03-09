@@ -5,6 +5,12 @@ plan: aws.secret.tf
 apply:
 	terraform apply
 
+destroy:
+	terraform destroy
+
+get:
+	terraform get
+
 aws.secret.tf:
 	@echo "no aws.secret.tf file present"
 	@exit 1
