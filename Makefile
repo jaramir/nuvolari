@@ -1,4 +1,4 @@
-plan: aws.secret.tf
+plan:
 	terraform plan
 	@echo "apply with make apply"
 
@@ -10,7 +10,3 @@ destroy:
 
 get:
 	terraform get
-
-aws.secret.tf:
-	@echo "no aws.secret.tf file present"
-	@exit 1
